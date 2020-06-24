@@ -1,0 +1,29 @@
+div {
+  font-size: 20px;
+}
+
+div ul {
+  color: green;
+}
+
+div p {
+  color: orange;
+  font-style: italic;
+}
+
+.success, .warning {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-stretch: expanded;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  background-color: orange;
+}
+
+.warning {
+  background-color: red;
+}
+/*# sourceMappingURL=scss_stylesheet.css.map */

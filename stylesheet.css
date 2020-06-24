@@ -1,0 +1,80 @@
+
+.grid {
+
+    background-color: wheat;
+    display:grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 200px 200px;
+
+}
+
+.grid-item {
+    
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: royalblue;
+}
+
+table {
+border: 2px solid black;
+margin-bottom: 20px;
+
+}
+
+th, td {
+    border: 2px solid black;
+
+}
+
+
+h1, h2 {
+color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+ol {
+    background-color: lightgrey;
+}
+
+#BackgroundSummery {
+background-color: lightblue;
+}
+
+ol > li {
+    color:red;
+}
+
+ul {
+
+    color:blueviolet
+}
+
+a::after {
+    content: "\263A";
+    font-weight:bold;
+    font-size: x-large;
+}
+
+input[type=text] {
+
+    background-color: seagreen;
+    box-shadow: tomato;
+}
+
+#fam_header {
+
+    margin: 20px;
+    
+}
+
+@media print {
+    .screen-only{
+display: none;
+  }
+}
